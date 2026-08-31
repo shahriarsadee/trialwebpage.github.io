@@ -528,6 +528,52 @@ footer .container {
    Responsive: Tablet
 ========================= */
 
+/* =========================================================
+   MORE SECTION LINK
+
+   PURPOSE:
+   Creates the "More about my education →" link.
+
+   This same CSS can later be used for:
+   - Work Experience
+   - Research Works
+   - Training
+   - Leadership Skills
+   - Awards
+   ========================================================= */
+
+.more-section {
+
+    margin-top: 40px;
+
+}
+
+
+.more-section a {
+
+    display: inline-block;
+
+    color: var(--green);
+
+    font-size: 0.9rem;
+
+    font-weight: 700;
+
+    padding: 10px 0;
+
+    border-bottom: 1px solid var(--green);
+
+}
+
+
+.more-section a:hover {
+
+    color: var(--dark);
+
+    border-bottom-color: var(--dark);
+
+}
+
 @media (max-width: 850px) {
   .navwrap nav {
     display: none;
