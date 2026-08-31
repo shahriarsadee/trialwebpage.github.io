@@ -574,6 +574,70 @@ footer .container {
 
 }
 
+/* =========================================================
+   PUBLICATION LINK
+
+   PURPOSE:
+   Shows the publication status and publication link
+   for each research work.
+   ========================================================= */
+
+.publication-link{
+
+    margin-top:30px;
+
+    padding-top:20px;
+
+    border-top:1px solid var(--line);
+
+}
+
+
+.publication-link small{
+
+    display:block;
+
+    color:var(--green);
+
+    font-size:0.68rem;
+
+    letter-spacing:0.13em;
+
+    font-weight:700;
+
+}
+
+
+.publication-link p{
+
+    margin:8px 0;
+
+    color:var(--muted);
+
+}
+
+
+.publication-link a{
+
+    display:inline-block;
+
+    margin-top:5px;
+
+    color:var(--green);
+
+    font-weight:700;
+
+    font-size:0.9rem;
+
+}
+
+
+.publication-link a:hover{
+
+    color:var(--dark);
+
+}
+
 @media (max-width: 850px) {
   .navwrap nav {
     display: none;
